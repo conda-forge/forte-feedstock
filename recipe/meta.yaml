@@ -6,8 +6,10 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/evangelistalab/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: "6b4e81ad9759c470734907f6c57d5db34d2ad4986126cc5eee27bdfd3535e9f8"
+  #url: https://github.com/evangelistalab/{{ name }}/archive/v{{ version }}.tar.gz
+  #sha256: "6b4e81ad9759c470734907f6c57d5db34d2ad4986126cc5eee27bdfd3535e9f8"
+  url: https://github.com/loriab/forte/archive/fixcf.tar.gz
+  sha256: "bfdee499f6e047106025e8681b23d58ed3fa304353eae8e22faf52b8e87bd62f"
 
 build:
   number: 0
